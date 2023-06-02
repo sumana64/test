@@ -1,0 +1,173 @@
+1.java nd javac
+
+when we write the java program we are going to save the file with as .java in notepad.
+later to compile the program we javac command with the filename(javac filename.java) to compile the file.
+after the compilation we run the program using java command with the filename(java filename)to execute the program.
+ex-class Name{                
+
+    String name;
+
+   public static void main(String[] args){
+
+    Name nm = new Name();
+    nm.name = "xworkz";
+    System.out.pritnln(nm.name);
+
+  }
+   
+
+}
+
+to compile this we use javac Name.java
+to run we use java Name
+
+
+2.JVM-declared as java virtual machine.it is not physically present,but virtually exist.
+It loads the bytecode.
+It verifies the bytecode.
+It execute the bytecode.
+It provides the runtime environment to execute the bytecode.
+It is somewhere present in the jre.
+
+JRE-declared as java runtime environment
+it is phusically exist.it contains jvm nd set of libraries.
+jre execute the byte using the set of libraries but in background jvm provide runtime nd execute the bytecode.
+if we get .class file we run the file using jre.to run the file we use jre.
+
+Jdk - declared as java development kit
+it is physically present, it consist of jvm development tools.
+it is called as fully featured software development tool
+it is used to write nd execute the file.
+it is used to debug the code..compile the code nd it consist of java libraries.
+
+3.Array is container used to store the multiple copies of data.it is used to store the sequence of data.
+array is non premative wheather it is declared with premitive.
+In array if size is fixed we cannot store the data more than the size.
+we cannot store different type of data..if it is declared with the one datatype.
+in order to access the array we need to use the for loop.
+data is stored in sequencial order starts with index 0.
+
+4.class is blueprint or template or design consist of state nd behaviour.
+it is declared once nd it is single copy nd logically exist.
+class Soap{    - class
+  
+String name;
+String color;
+String shape;
+
+public void manufactureSoap(){
+
+System.out.println("soap is manufactured in factory");
+
+}
+
+}
+
+object - it is instance of class use dto create multiple copies of the class.
+
+ClassName referenceof class = new ClassName();
+
+new keyword is used to create object nd to allocate the object in the memory.
+
+Soap sp = new Soap();
+
+5. java file consist of source code.when we write the program it is saved as the .java which is of byte code.
+ compiler is used to convert sourcode to byte code sent to jvm to execute the bytecode.
+bytecode is platform independent.
+.java file is converted into .class file sourcode to bytecode in which jvm can underastand only the bytecode.
+if we get .class file we can execute the file directly.
+
+6.class Factory{
+
+  String material;
+  
+  public void manufactureProduct(String material){
+
+      System.out.prinln("products are manufactured in factory");
+
+  }
+}
+
+method signature = methodname with parameter inside the parenthesis
+ 
+methodName(parameter)- manufacureProduct(String material);
+
+7.java is object oriented programming language used to develop the software.
+it is founded by jamesgosling nd team.it is used as platform to develop the appliactions.
+
+8.notepad++,eclipse,intellij,visual studio
+
+9.variable is container use to store the data it can be used in the later stages..registered srea allocated in the memory.
+local variable-it is declared inside the class inside the method.declaration nd intialization is mandatory.
+nodefault values for lacal variable.its scope is within the method
+static variable-declared inside the class outside the method with static keyword.declaration is mandatory intialization is not mandatory.
+if we dont intialize it is intialized as defaul values by complier
+instance - it is declared insdide the class out side the method without static keyword.
+declaration is mandqatory..instialization is not mandatory.it accessed by the reference of the object.
+paremeter-paramneter are passed at the time of method declaration inside the parenthesis.its scope is within the method
+
+10.class,extend,new,System,public,private,protected,final,super,this..
+
+11.class variable are the static variable which are declared outside the method..inside the class with static keyword.declaration is madatory..intialization is not madatory.
+we can access them using only the classname.
+
+12.datatype is used to represent the type data we are storing into the variable.
+there are two types of datatype - premitive nd nonpremitive
+premitive-byte,short,int,long,double,float,char,boolean
+nonpremitive- classtype, String ,referncetype, system
+
+13.it used to access the method - inbuild nd userdefined nd variables
+
+14.java is simple nd secure.
+java is object oriented.
+java has no limitations.java is platform independent.
+java is multithreaded.it is open soure
+
+15.object is the base class of all the classes
+
+16.method overloading - more than one method declared with the same name with the different parameter list
+
+class App{
+
+ static String name;
+
+ static double contactNo;
+
+ static String emaiId;
+
+public static void login(String name){
+
+  System.out.println("the name of person is:" + name);
+
+}
+
+public static void login(double contactNo,String emailId){
+
+   System.out.println("contactno of person is:"  + contactNo);
+
+   System.out.pritnln("emailid of person is :" + emailid);
+
+   
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
